@@ -1,7 +1,7 @@
 
 ## Instalar cacert.pem (SSL) 👀
 
-Cuando se realiza el inicio de sesión mediante el login, arroja el siguiente error.
+Cuando se realiza el inicio de sesión mediante el login de Google, arroja el siguiente error.
 
 cURL error 60: SSL certificate: unable to get local issuer certificate
 
