@@ -22,5 +22,6 @@ Esto es debido a que PHP no cuenta con un certificado SSL, es por eso que se nec
 - **Reiniciar Apache:** Esto en caso de que se use Xampp, la cual no recomiendo la verdad, usen PHP puro🫠.
 
 
-![Prueba](./public/build/assets/ssl.gif)
+![Prueba](./assets/ssl.gif)
+
 
