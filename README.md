@@ -21,6 +21,7 @@ Esto es debido a que PHP no cuenta con un certificado SSL, es por eso que se nec
 
 - **Reiniciar Apache:** Esto en caso de que se use Xampp, la cual no recomiendo la verdad, usen PHP puro🫠.
 
+**Nota:** En el repositorio se incluye el archivo [confia.txt](confia.txt), que muestra un ejemplo de cómo desactivar la verificación SSL en el cliente HTTP (se usa `verify => false`). Si se elige este enfoque, será necesario ajustar las rutas de autenticación (por ejemplo `/auth/google/redirect` y `/auth/google/callback`) para integrar el código del ejemplo y adaptarlo al proyecto. Este método evita la necesidad de un certificado, pero es inseguro.
 
 ![Prueba](./assets/ssl.gif)
 
